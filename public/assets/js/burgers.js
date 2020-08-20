@@ -32,7 +32,7 @@ $(function() {
       };
   
       // Send the POST request.
-      $.ajax("/api/burgerss", {
+      $.ajax("/api/burgers", {
         type: "POST",
         data: newBurger
       }).then(
