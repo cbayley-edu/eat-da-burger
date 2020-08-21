@@ -1,9 +1,13 @@
-<li>
-	{{burger_name}}
+<h5>
 
-	<button class="change-devoured" data-id="{{id}}" data-newdevoured="{{devoured}}">
-		{{#if devoured}}DEVOUR!{{else}}EAT AGAIN!{{/if}}
+        {{burger_name}}
+
+	<button class="change-devoured btn btn-info" data-id="{{id}}" data-newdevoured="{{devoured}}">
+		{{#if devoured}}<i class="fas fa-cookie-bite"></i>{{else}}<i class="fas fa-utensils"></i>{{/if}}
 	</button>
+    
+	<button class="delete-burger btn btn-danger" data-id="{{this.id}}"><i class="fas fa-trash-alt"></i></button>
 
-	<button class="delete-burger" data-id="{{this.id}}">DELETE!</button>
-</li>
+    
+
+</h5>

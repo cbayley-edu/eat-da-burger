@@ -1,38 +1,45 @@
-<h1>Burgers!</h1>
+<h1>Eat-da-Burger!</h1>
+<img src="https://i.gifer.com/TF5O.gif" class="rounded-lg" alt="burgers dancing" >
+<br><br>
+<div class="row">
+    <div class="col-6">
+        <h2><i class="fas fa-hamburger"></i> Burgers to Eat <i class="fas fa-hamburger"></i></h2>
 
-<h2>Burgers to Eat!</h2>
+        <p>
+        {{#each burger}}
+            {{#unless devoured}}
+            {{> burgers/burger-block devoured=true}}
+            {{/unless}}
+        {{/each}}
+        </p>
+    </div>
 
-<ul>
-  {{#each burger}}
-    {{#unless devoured}}
-      {{> burgers/burger-block devoured=true}}
-    {{/unless}}
-  {{/each}}
-</ul>
+    <div class="col-6">
 
-<h2>Burgers that have been devoured!</h2>
+        <h2><i class="fas fa-hamburger"></i> Devoured Burgers <i class="fas fa-hamburger"></i></h2>
 
-<ul>
-  {{#each burger}}
-    {{#if devoured}}
-      {{> burgers/burger-block devoured=false}}
-    {{/if}}
-  {{/each}}
-</ul>
+        <p>
+        {{#each burger}}
+            {{#if devoured}}
+            {{> burgers/burger-block devoured=false}}
+            {{/if}}
+        {{/each}}
+        </p>
+    </div>
+</div>
 
-<h2>Add a Burger</h2>
-<form class="create-form">
+<div class="row">
+    <div class="col-12">
+        <br>
+        <h2><i class="fas fa-hamburger"></i> Add a Burger <i class="fas fa-hamburger"></i></h2>
+        <form class="create-form">
 
-  <div class="form-group">
-    <label for="burg">Burger Name:</label>
-    <input type="text" id="burg" name="burger">
-  </div>
+            <div class="form-group">
+                <label for="burg">Name:</label>
+                <input type="text" id="burg" name="burger">
+            </div>
 
-  {{!-- <div class="form-group">
-    <label for="devoured">Devour?</label><br>
-    <input type="radio" name="devoured" value="1" checked> DEVOURED!<br>
-    <input type="radio" name="devoured" value="0"> Ready to eat!
-  </div> --}}
-
-  <button type="submit">Add Burger</button>
-</form>
+            <button type="submit" class="btn btn-success"><i class="fas fa-magic"></i></button>
+        </form>
+    </div>
+</div>

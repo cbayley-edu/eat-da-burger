@@ -1,20 +1,30 @@
-li {
+body {
+  background-color: #B9E3AB;
+  font-family: 'Luckiest Guy', cursive;
+  color: #8B4513;
+}
+
+h5 {
+  color: #654321;
+}
+
+/* li {
     padding: 5px;
     margin: 5px;
     background: #faebd7;
-  }
+  } */
   
-  .label {
-    font-weight: bold;
-  }
-  
-  .create-update-form {
-    padding: 5px;
-    margin: 5px;
-    background: aqua;
-  }
-  
-  .form-group {
-    margin-bottom: 5px;
-  }
+.label {
+  font-weight: bold;
+}
+
+.create-update-form {
+  padding: 5px;
+  margin: 5px;
+  background: aqua;
+}
+
+.form-group {
+  margin-bottom: 5px;
+}
   
