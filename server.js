@@ -2,6 +2,7 @@
 const express = require("express");
 const path = require("path");
 const exphbs = require("express-handlebars");
+var favicon = require('serve-favicon');
 
 // Express app
 const app = express();
@@ -16,6 +17,8 @@ app.use(express.json());
 
 app.engine("handlebars", exphbs( { defaultLayout: "main"}));
 app.set("view engine", "handlebars");
+
+app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')))
 
 const routes = require("./controllers/burgers-controller.js");
 app.use(routes);

@@ -12,6 +12,7 @@
     "dependencies": {
         "express": "^4.16.4",
         "express-handlebars": "^3.0.0",
-        "mysql": "^2.18.1"
+        "mysql": "^2.18.1",
+        "serve-favicon": "^2.5.0"
     }
 }
