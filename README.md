@@ -29,6 +29,10 @@ Visit the Heroku app URL to use the application: https://young-caverns-86793.her
 
 ![eat-da-burger](./public/assets/imgs/eat-da-burger.png)
 
+Need help? The Help link will open in a new tab/window.
+
+![help](./public/assets/imgs/help.png)
+
 To enter a new burger, type the burger name and click the magic wand.
 
 ![add-a-burger](./public/assets/imgs/add-a-burger.png)
