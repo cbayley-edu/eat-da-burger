@@ -1,45 +1,56 @@
-<h1>Eat-da-Burger!</h1>
-<img src="https://i.gifer.com/TF5O.gif" class="rounded-lg" alt="burgers dancing" >
-<br><br>
-<div class="row">
-    <div class="col-6">
-        <h2><i class="fas fa-hamburger"></i> Burgers to Eat <i class="fas fa-hamburger"></i></h2>
+<div class="container">
+    <h1>Eat-da-Burger!</h1>
+    <img src="https://i.gifer.com/TF5O.gif" class="rounded-lg" alt="burgers dancing" >
+    <img src="https://media.giphy.com/media/loRt6ja0q6VHcljBCk/giphy.gif" class="rounded-lg pacman-img" alt="pacman" >
+    <br><br>
+    <div class="row">
+        <br>
+        <div class="col-6">
+            <h2><i class="fas fa-hamburger"></i> Burgers to Eat <i class="fas fa-hamburger"></i></h2>
 
-        <p>
-        {{#each burger}}
-            {{#unless devoured}}
-            {{> burgers/burger-block devoured=true}}
-            {{/unless}}
-        {{/each}}
-        </p>
-    </div>
+            <p>
+            {{#each burger}}
+                {{#unless devoured}}
+                {{> burgers/burger-block devoured=true}}
+                {{/unless}}
+            {{/each}}
+            </p>
+        </div>
 
-    <div class="col-6">
+        <div class="col-6">
 
-        <h2><i class="fas fa-hamburger"></i> Devoured Burgers <i class="fas fa-hamburger"></i></h2>
+            <h2><i class="fas fa-hamburger"></i> Devoured Burgers <i class="fas fa-hamburger"></i></h2>
 
-        <p>
-        {{#each burger}}
-            {{#if devoured}}
-            {{> burgers/burger-block devoured=false}}
-            {{/if}}
-        {{/each}}
-        </p>
+            <p>
+            {{#each burger}}
+                {{#if devoured}}
+                {{> burgers/burger-block devoured=false}}
+                {{/if}}
+            {{/each}}
+            </p>
+        </div>
     </div>
 </div>
-
-<div class="row">
-    <div class="col-12">
-        <br>
-        <h2><i class="fas fa-hamburger"></i> Add a Burger <i class="fas fa-hamburger"></i></h2>
-        <form class="create-form">
-
-            <div class="form-group">
-                <label for="burg">Name:</label>
-                <input type="text" id="burg" name="burger">
-            </div>
-
-            <button type="submit" class="btn btn-success"><i class="fas fa-magic"></i></button>
-        </form>
+<div class-"container">
+    <div class="row">
+        <div class="col-12">
+            <br>
+            <h2><i class="fas fa-hamburger"></i> Add a Burger <i class="fas fa-hamburger"></i></h2>
+            <form class="create-form">
+                <div class="form-group row">
+                    
+                    <div class="col-4"></div>
+                    {{!-- <label for="burg" class="col-4 col-form-label col-form-label-lg"></label> --}}
+                    <div class="col-4">
+                        {{!-- <input type="text" class="form-control form-control-lg" id="burg" name="burger">
+                        <button type="submit" class="btn btn-success"><i class="fas fa-magic"></i></button> --}}
+                        <input type="text" id="burg" name="burger">
+                        <button type="submit" class="btn btn-success"><i class="fas fa-magic"></i></button>
+                    </div>
+                    <div class="col-4"></div>
+                </div>
+            </form>
+            <br><br>
+        </div>
     </div>
 </div>

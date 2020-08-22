@@ -8,6 +8,25 @@ h5 {
   color: #654321;
 }
 
+h2 {
+  text-shadow: 1px 1px gray;
+}
+
+h1 {
+  font-size: 70px;
+  text-shadow: 3px 3px gray;
+}
+
+.pacman-img {
+  background-color: #853D1F; 
+  width: 500px;
+  height: 281px;
+}
+
+.burger-name {
+  padding: 10px;
+}
+
 /* li {
     padding: 5px;
     margin: 5px;
