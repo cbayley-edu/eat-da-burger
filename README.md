@@ -6,7 +6,7 @@
 
 Hungry? Then it's time to Eat-Da-Burger! Have some fun with this Eat-Da-Burger app that showcases node express handlebars. You can create a burger, devour it, revive it, or delete it. Enjoy!
 
-Access the deployed Heroku app here: https://young-caverns-86793.herokuapp.com/  (can you name the movie and the video game portrayed in the gifs?)
+Access the deployed Heroku app here: https://eat-da-burger-86793.herokuapp.com/  (can you name the movie and the video game portrayed in the gifs?)
 
 Access the git repo here: https://github.com/cbayley-edu/eat-da-burger
 
@@ -25,7 +25,7 @@ Since this is a Heroku app, there is no installation required however, if you wa
 
 ## Usage
 
-Visit the Heroku app URL to use the application: https://young-caverns-86793.herokuapp.com/ 
+Visit the Heroku app URL to use the application: https://eat-da-burger-86793.herokuapp.com/
 
 ![eat-da-burger](./public/assets/imgs/eat-da-burger.png)
 
