@@ -1,14 +1,14 @@
-# Node Express Handlebars
+# Eat-Da-Burger!
 
 ### Unit 13: Node Express Handlebars
 
 ## Description
 
-asdf
+Hungry? Then it's time to Eat-Da-Burger! Have some fun with this Eat-Da-Burger app that showcases node express handlebars. You can create a burger, devour it, revive it, or delete it. Enjoy!
 
-Access the deployed Heroku app here: 
+Access the deployed Heroku app here: https://young-caverns-86793.herokuapp.com/  (can you name the movie and the video game portrayed in the gifs?)
 
-Access the git repo here: 
+Access the git repo here: https://github.com/cbayley-edu/eat-da-burger
 
 
 ## Table of Contents 
@@ -21,64 +21,53 @@ Access the git repo here:
 
 ## Installation 
 
-[
-  You can immediately access the app using the link above but you can also run the application locally.
-
-  Using GitHub, clone or fork the repository. You'll need to get the repo pulled to your local repository. Once you have the repo locally, be sure to run npm install from your terminal to install inquirer and all other dependencies for the application. 
-
-  ![npm install](./public/assets/imgs/npm-install.png) 
-
-  If you plan to push the repo back to your GitHub repo, be sure to add a .gitignore file to your root folder and ignore node_modules and .DS_Store/ . 
-]
+Since this is a Heroku app, there is no installation required however, if you want to clone or fork my github repo, feel free to do so. You'll have to setup your own JawsDB Add-on in Heroku to store your own burgers.
 
 ## Usage
 
-[
-  #### You only need to follow these first steps if you are running the application locally.
+Visit the Heroku app URL to use the application: https://young-caverns-86793.herokuapp.com/ 
 
-  Start the program by typing node server.js in your terminal. You will be prompted that port 3060 is listening.
+![eat-da-burger](./public/assets/imgs/eat-da-burger.png)
 
-  ![start program](./public/assets/imgs/start-program.png)
+To enter a new burger, type the burger name and click the magic wand.
 
-  Open your browser and goto localhost:3060 .
+![add-a-burger](./public/assets/imgs/add-a-burger.png)
 
-  ![browser](./public/assets/imgs/browser.png)
+The burger will appear under 'BURGERS TO EAT'.
 
+![available-burgers](./public/assets/imgs/available-burgers.png)
 
-  #### The remaining steps refer to the app regardless of how you access it (locally or through Heroku)
+To devour a burger, click on the eaten cookie button
 
-  You will be presented with the Note Taker start page. Click Get Started to use Note Taker.
+![burgers-to-eat](./public/assets/imgs/burgers-to-eat.png)
 
-  ![get started](./public/assets/imgs/get-started.png)
+The burger will move to the right, under 'DEVOURED BURGERS'.
 
-  To enter a new note, type a note title and note text.
+![available-burgers1](./public/assets/imgs/available-burgers1.png)
 
-  ![enter note](./public/assets/imgs/enter-note.png)
+To revive a devoured burger, click on the fork and knife button to remake it.
 
-  To save your note, click on the Save button.
+![revive-a-burger](./public/assets/imgs/revive-a-burger.png)
 
-  ![save note](./public/assets/imgs/save-note.png)
+The burger will move back to the left under 'BURGERS TO EAT'.
 
-  As you save notes the will appear on the left. 
+![available-burgers2](./public/assets/imgs/available-burgers2.png)
 
-  ![view notes](./public/assets/imgs/view-notes.png)
+You can delete burgers from either list by clicking the red trash can button.
 
-  Click on any note to view it.
+![delete-a-burger](./public/assets/imgs/delete-a-burger.png)
 
-  ![view note](./public/assets/imgs/view-note.png)
+The burgers are now gone forever...
 
-  While in view mode, if you wish to add a new note, click on the pencil icon in the upper right-hand corner.
+![gone-burger-gone](./public/assets/imgs/gone-burger-gone.png)
 
-  ![new note](./public/assets/imgs/new-note.png)
+...or are they?
 
-  Click on the trashcan to delete an existing note.
+![add-a-cheeseburger](./public/assets/imgs/add-a-cheeseburger.png)
 
-  ![delete note](./public/assets/imgs/delete-note.png)
+"Cheeburger, cheeburger, cheeburger, cheeburger, cheeburger, cheeburger, cheeburger, cheeburger, cheeburger! Eh?"
 
-  The page will reload and the note will be gone.
-
-  ![delete refresh](./public/assets/imgs/delete-refresh.png)
-]
+![eat-up](./public/assets/imgs/eat-up.png)
 
 ## License 
 
@@ -93,4 +82,6 @@ GitHub username: cbayley-edu
 GitHub profile link: https://github.com/cbayley-edu
 
 Please email me at christinabayley@comcast.net with any questions you have or any issues you come across.
+
+Answers for Gifs: Movie reference is Better off Dead and video game is Pacman. Old SNL skit was referenced in the instructions too! Cheeburger.
 
