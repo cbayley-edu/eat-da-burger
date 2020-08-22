@@ -63,7 +63,7 @@ The burgers are now gone forever...
 
 ...or are they?
 
-![add-a-cheeseburger](./public/assets/imgs/add-a-cheeseburger.png)
+![add-a-cheeburger](./public/assets/imgs/add-a-cheeburger.png)
 
 "Cheeburger, cheeburger, cheeburger, cheeburger, cheeburger, cheeburger, cheeburger, cheeburger, cheeburger! Eh?"
 
